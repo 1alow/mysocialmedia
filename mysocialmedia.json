@@ -3,10 +3,10 @@
         {
             "id": 1,
             "username": "johndoe",
-            "profilePicture": "https://example.com/profile_pictures/johndoe.jpg",
+            "profilePicture": "https://images.pexels.com/photos/26692187/pexels-photo-26692187/free-photo-of-portrait-of-woman-posing-in-blue-suit.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
             "posts": [
                 {
-                    "imageUrl": "https://example.com/posts/post1.jpg",
+                    "imageUrl": "https://images.pexels.com/photos/26692187/pexels-photo-26692187/free-photo-of-portrait-of-woman-posing-in-blue-suit.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
                     "content": "Loving the beach today!",
                     "likes": 150,
                     "comments": [
@@ -31,10 +31,10 @@
         {
             "id": 2,
             "username": "janedoe",
-            "profilePicture": "https://example.com/profile_pictures/janedoe.jpg",
+            "profilePicture": "https://images.pexels.com/photos/20621555/pexels-photo-20621555/free-photo-of-photo-of-a-young-elegant-woman-wearing-a-black-hijab.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
             "posts": [
                 {
-                    "imageUrl": "https://example.com/posts/post3.jpg",
+                    "imageUrl": "https://images.pexels.com/photos/20621555/pexels-photo-20621555/free-photo-of-photo-of-a-young-elegant-woman-wearing-a-black-hijab.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
                     "content": "Exploring the city!",
                     "likes": 200,
                     "comments": [
@@ -49,10 +49,10 @@
         {
             "id": 3,
             "username": "marksmith",
-            "profilePicture": "https://example.com/profile_pictures/marksmith.jpg",
+            "profilePicture": "https://images.pexels.com/photos/15766840/pexels-photo-15766840/free-photo-of-a-black-woman-with-an-afro-standing-in-the-middle-of-the-road.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
             "posts": [
                 {
-                    "imageUrl": "https://example.com/posts/post4.jpg",
+                    "imageUrl": "https://images.pexels.com/photos/15766840/pexels-photo-15766840/free-photo-of-a-black-woman-with-an-afro-standing-in-the-middle-of-the-road.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
                     "content": "Workout session done!",
                     "likes": 300,
                     "comments": [
@@ -77,10 +77,10 @@
         {
             "id": 4,
             "username": "sarahconnor",
-            "profilePicture": "https://example.com/profile_pictures/sarahconnor.jpg",
+            "profilePicture": "https://images.pexels.com/photos/3400683/pexels-photo-3400683.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
             "posts": [
                 {
-                    "imageUrl": "https://example.com/posts/post6.jpg",
+                    "imageUrl": ""https://images.pexels.com/photos/3400683/pexels-photo-3400683.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
                     "content": "Coffee and books!",
                     "likes": 80,
                     "comments": []
@@ -90,10 +90,10 @@
         {
             "id": 5,
             "username": "alexjones",
-            "profilePicture": "https://example.com/profile_pictures/alexjones.jpg",
+            "profilePicture": "https://images.pexels.com/photos/4889487/pexels-photo-4889487.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
             "posts": [
                 {
-                    "imageUrl": "https://example.com/posts/post7.jpg",
+                    "imageUrl": "https://images.pexels.com/photos/4889487/pexels-photo-4889487.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
                     "content": "Nature is beautiful!",
                     "likes": 120,
                     "comments": [
