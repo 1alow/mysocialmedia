@@ -1,127 +1,109 @@
 {
-  "users": [
-    {
-      "id": 1,
-      "username": "ALISHA_MALIK",
-      "email": "john@example.com",
-      "profilePicture": "https://images.pexels.com/photos/13159659/pexels-photo-13159659.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-    },
-    {
-      "id": 2,
-      "username": "jane_doe",
-      "email": "jane@example.com",
-      "profilePicture": "https://images.pexels.com/photos/26692187/pexels-photo-26692187/free-photo-of-portrait-of-woman-posing-in-blue-suit.jpeg"
-    },
-    {
-      "id": 3,
-      "username": "john_smith",
-      "email": "john.smith@example.com",
-      "profilePicture": "https://images.pexels.com/photos/26692187/pexels-photo-26692187/free-photo-of-portrait-of-woman-posing-in-blue-suit.jpeg"
-    },
-    {
-      "id": 4,
-      "username": "alice_brown",
-      "email": "alice.brown@example.com",
-      "profilePicture": "https://images.pexels.com/photos/26692187/pexels-photo-26692187/free-photo-of-portrait-of-woman-posing-in-blue-suit.jpeg"
-    },
-    {
-      "id": 5,
-      "username": "charlie_white",
-      "email": "charlie.white@example.com",
-      "profilePicture": "https://images.pexels.com/photos/26692187/pexels-photo-26692187/free-photo-of-portrait-of-woman-posing-in-blue-suit.jpeg"
-    },
-    {
-      "id": 6,
-      "username": "david_black",
-      "email": "david.black@example.com",
-      "profilePicture": "https://images.pexels.com/photos/26692187/pexels-photo-26692187/free-photo-of-portrait-of-woman-posing-in-blue-suit.jpeg"
-    }
-  ],
-  "posts": [
-    {
-      "postId": 1,
-      "userId": 1,
-      "content": "This is my first post!",
-      "imageUrl": "https://images.pexels.com/photos/13159659/pexels-photo-13159659.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "likes": 5,
-      "comments": [
+    "users": [
         {
-          "commentId": 1,
-          "userId": 2,
-          "text": "Nice post!"
-        }
-      ]
-    },
-    {
-      "postId": 2,
-      "userId": 2,
-      "content": "Loving the new social media app!",
-      "imageUrl": "https://images.pexels.com/photos/26692187/pexels-photo-26692187/free-photo-of-portrait-of-woman-posing-in-blue-suit.jpeg",
-      "likes": 10,
-      "comments": [
+            "id": 1,
+            "username": "johndoe",
+            "profilePicture": "https://example.com/profile_pictures/johndoe.jpg",
+            "posts": [
+                {
+                    "imageUrl": "https://example.com/posts/post1.jpg",
+                    "content": "Loving the beach today!",
+                    "likes": 150,
+                    "comments": [
+                        {
+                            "user": "janedoe",
+                            "comment": "Looks amazing!"
+                        },
+                        {
+                            "user": "marksmith",
+                            "comment": "Wish I was there!"
+                        }
+                    ]
+                },
+                {
+                    "imageUrl": "https://example.com/posts/post2.jpg",
+                    "content": "Just had the best coffee!",
+                    "likes": 100,
+                    "comments": []
+                }
+            ]
+        },
         {
-          "commentId": 2,
-          "userId": 1,
-          "text": "Glad you like it!"
-        }
-      ]
-    },
-    {
-      "postId": 3,
-      "userId": 3,
-      "content": "This is my second post!",
-      "imageUrl": "https://images.pexels.com/photos/13159659/pexels-photo-13159659.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "likes": 5,
-      "comments": [
+            "id": 2,
+            "username": "janedoe",
+            "profilePicture": "https://example.com/profile_pictures/janedoe.jpg",
+            "posts": [
+                {
+                    "imageUrl": "https://example.com/posts/post3.jpg",
+                    "content": "Exploring the city!",
+                    "likes": 200,
+                    "comments": [
+                        {
+                            "user": "johndoe",
+                            "comment": "Nice place!"
+                        }
+                    ]
+                }
+            ]
+        },
         {
-          "commentId": 3,
-          "userId": 3,
-          "text": "Nice post!"
-        }
-      ]
-    },
-    {
-      "postId": 4,
-      "userId": 4,
-      "content": "Loving the new social media app!",
-      "imageUrl": "https://images.pexels.com/photos/26692187/pexels-photo-26692187/free-photo-of-portrait-of-woman-posing-in-blue-suit.jpeg",
-      "likes": 10,
-      "comments": [
+            "id": 3,
+            "username": "marksmith",
+            "profilePicture": "https://example.com/profile_pictures/marksmith.jpg",
+            "posts": [
+                {
+                    "imageUrl": "https://example.com/posts/post4.jpg",
+                    "content": "Workout session done!",
+                    "likes": 300,
+                    "comments": [
+                        {
+                            "user": "johndoe",
+                            "comment": "Great job!"
+                        },
+                        {
+                            "user": "janedoe",
+                            "comment": "Keep it up!"
+                        }
+                    ]
+                },
+                {
+                    "imageUrl": "https://example.com/posts/post5.jpg",
+                    "content": "Weekend vibes!",
+                    "likes": 250,
+                    "comments": []
+                }
+            ]
+        },
         {
-          "commentId": 4,
-          "userId": 4,
-          "text": "Glad you like it!"
-        }
-      ]
-    },
-    {
-      "postId": 5,
-      "userId": 5,
-      "content": "This is my first post!",
-      "imageUrl": "https://images.pexels.com/photos/13159659/pexels-photo-13159659.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "likes": 5,
-      "comments": [
+            "id": 4,
+            "username": "sarahconnor",
+            "profilePicture": "https://example.com/profile_pictures/sarahconnor.jpg",
+            "posts": [
+                {
+                    "imageUrl": "https://example.com/posts/post6.jpg",
+                    "content": "Coffee and books!",
+                    "likes": 80,
+                    "comments": []
+                }
+            ]
+        },
         {
-          "commentId": 5,
-          "userId": 5,
-          "text": "Nice post!"
+            "id": 5,
+            "username": "alexjones",
+            "profilePicture": "https://example.com/profile_pictures/alexjones.jpg",
+            "posts": [
+                {
+                    "imageUrl": "https://example.com/posts/post7.jpg",
+                    "content": "Nature is beautiful!",
+                    "likes": 120,
+                    "comments": [
+                        {
+                            "user": "marksmith",
+                            "comment": "So true!"
+                        }
+                    ]
+                }
+            ]
         }
-      ]
-    },
-    {
-      "postId": 6,
-      "userId": 6,
-      "content": "Loving the new social media app!",
-      "imageUrl": "https://images.pexels.com/photos/26692187/pexels-photo-26692187/free-photo-of-portrait-of-woman-posing-in-blue-suit.jpeg",
-      "likes": 10,
-      "comments": [
-        {
-          "commentId": 6,
-          "userId": 6,
-          "text": "Glad you like it!"
-        }
-      ]
-    }
-  ]
+    ]
 }
-
