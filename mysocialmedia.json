@@ -1,109 +1,116 @@
 {
-    "users": [
+  "users": [
+    {
+      "id": 1,
+      "username": "john_doe",
+      "email": "john@example.com",
+      "profilePicture": "https://cdn.pixabay.com/photo/2023/01/15/22/48/river-7721287_1280.jpg"
+    },
+    {
+      "id": 2,
+      "username": "jane_doe",
+      "email": "jane@example.com",
+      "profilePicture": "https://cdn.pixabay.com/photo/2023/06/22/06/53/beautiful-girl-8080757_1280.jpg"
+    },
+    {
+      "id": 3,
+      "username": "alice_smith",
+      "email": "alice@example.com",
+      "profilePicture": "profile3.jpg"
+    },
+    {
+      "id": 4,
+      "username": "bob_brown",
+      "email": "bob@example.com",
+      "profilePicture": "profile4.jpg"
+    },
+    {
+      "id": 5,
+      "username": "charlie_black",
+      "email": "charlie@example.com",
+      "profilePicture": "profile5.jpg"
+    }
+  ],
+  "posts": [
+    {
+      "postId": 1,
+      "userId": 1,
+      "content": "This is my first post!",
+      "imageUrl": "https://cdn.pixabay.com/photo/2023/01/15/22/48/river-7721287_1280.jpg",
+      "likes": 5,
+      "comments": [
         {
-            "id": 1,
-            "username": "johndoe",
-            "profilePicture": "https://cdn.pixabay.com/photo/2023/01/15/22/48/river-7721287_1280.jpg",
-            "posts": [
-                {
-                    "imageUrl": "https://cdn.pixabay.com/photo/2023/01/15/22/48/river-7721287_1280.jpg",
-                    "content": "Loving the beach today!",
-                    "likes": 150,
-                    "comments": [
-                        {
-                            "user": "janedoe",
-                            "comment": "Looks amazing!"
-                        },
-                        {
-                            "user": "marksmith",
-                            "comment": "Wish I was there!"
-                        }
-                    ]
-                },
-                {
-                    "imageUrl": "https://cdn.pixabay.com/photo/2023/01/15/22/48/river-7721287_1280.jpg",
-                    "content": "Just had the best coffee!",
-                    "likes": 100,
-                    "comments": []
-                }
-            ]
-        },
-        {
-            "id": 2,
-            "username": "janedoe",
-            "profilePicture": "https://cdn.pixabay.com/photo/2023/01/15/22/48/river-7721287_1280.jpg1",
-            "posts": [
-                {
-                    "imageUrl": "https://cdn.pixabay.com/photo/2023/01/15/22/48/river-7721287_1280.jpg1",
-                    "content": "Exploring the city!",
-                    "likes": 200,
-                    "comments": [
-                        {
-                            "user": "johndoe",
-                            "comment": "Nice place!"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 3,
-            "username": "marksmith",
-            "profilePicture": "https://cdn.pixabay.com/photo/2023/01/15/22/48/river-7721287_1280.jpg1",
-            "posts": [
-                {
-                    "imageUrl": "https://cdn.pixabay.com/photo/2023/01/15/22/48/river-7721287_1280.jpg1",
-                    "content": "Workout session done!",
-                    "likes": 300,
-                    "comments": [
-                        {
-                            "user": "johndoe",
-                            "comment": "Great job!"
-                        },
-                        {
-                            "user": "janedoe",
-                            "comment": "Keep it up!"
-                        }
-                    ]
-                },
-                {
-                    "imageUrl": "https://example.com/posts/post5.jpg",
-                    "content": "Weekend vibes!",
-                    "likes": 250,
-                    "comments": []
-                }
-            ]
-        },
-        {
-            "id": 4,
-            "username": "sarahconnor",
-            "profilePicture": "https://images.pexels.com/photos/3400683/pexels-photo-3400683.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-            "posts": [
-                {
-                    "imageUrl": ""https://images.pexels.com/photos/3400683/pexels-photo-3400683.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-                    "content": "Coffee and books!",
-                    "likes": 80,
-                    "comments": []
-                }
-            ]
-        },
-        {
-            "id": 5,
-            "username": "alexjones",
-            "profilePicture": "https://images.pexels.com/photos/4889487/pexels-photo-4889487.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-            "posts": [
-                {
-                    "imageUrl": "https://images.pexels.com/photos/4889487/pexels-photo-4889487.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-                    "content": "Nature is beautiful!",
-                    "likes": 120,
-                    "comments": [
-                        {
-                            "user": "marksmith",
-                            "comment": "So true!"
-                        }
-                    ]
-                }
-            ]
+          "commentId": 1,
+          "userId": 2,
+          "text": "Nice post!"
         }
-    ]
+      ]
+    },
+    {
+      "postId": 2,
+      "userId": 2,
+      "content": "Loving the new social media app!",
+      "imageUrl": "https://cdn.pixabay.com/photo/2023/06/22/06/53/beautiful-girl-8080757_1280.jpg",
+      "likes": 10,
+      "comments": [
+        {
+          "commentId": 2,
+          "userId": 1,
+          "text": "Glad you like it!"
+        }
+      ]
+    },
+    {
+      "postId": 3,
+      "userId": 3,
+      "content": "Just finished reading a great book!",
+      "imageUrl": "post_image3.jpg",
+      "likes": 15,
+      "comments": [
+        {
+          "commentId": 3,
+          "userId": 1,
+          "text": "Which book did you read?"
+        },
+        {
+          "commentId": 4,
+          "userId": 2,
+          "text": "I love reading too!"
+        }
+      ]
+    },
+    {
+      "postId": 4,
+      "userId": 4,
+      "content": "Excited for the weekend!",
+      "imageUrl": "post_image4.jpg",
+      "likes": 8,
+      "comments": [
+        {
+          "commentId": 5,
+          "userId": 3,
+          "text": "Any plans?"
+        }
+      ]
+    },
+    {
+      "postId": 5,
+      "userId": 5,
+      "content": "Just completed a marathon!",
+      "imageUrl": "post_image5.jpg",
+      "likes": 20,
+      "comments": [
+        {
+          "commentId": 6,
+          "userId": 2,
+          "text": "That's amazing! Congrats!"
+        },
+        {
+          "commentId": 7,
+          "userId": 1,
+          "text": "Wow, you did it!"
+        }
+      ]
+    }
+  ]
 }
