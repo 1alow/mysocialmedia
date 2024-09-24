@@ -17,13 +17,13 @@
       "id": 3,
       "username": "alice_smith",
       "email": "alice@example.com",
-      "profilePicture": "https://cdn.pixabay.com/photo/2023/01/15/22/48/river-7721287_1280.jpg"
+      "profilePicture": "https://cdn.pixabay.com/photo/2024/09/02/13/08/kingfisher-9016787_1280.jpg"
     },
     {
       "id": 4,
       "username": "bob_brown",
       "email": "bob@example.com",
-      "profilePicture": "profile4.jpg"
+      "profilePicture": "https://cdn.pixabay.com/photo/2023/08/11/08/29/highland-cattle-8183107_1280.jpg"
     },
     {
       "id": 5,
@@ -65,7 +65,7 @@
       "postId": 3,
       "userId": 3,
       "content": "Just finished reading a great book!",
-      "imageUrl": "https://cdn.pixabay.com/photo/2023/01/15/22/48/river-7721287_1280.jpg",
+      "imageUrl": "https://cdn.pixabay.com/photo/2024/09/02/13/08/kingfisher-9016787_1280.jpg",
       "likes": 15,
       "comments": [
         {
@@ -84,7 +84,7 @@
       "postId": 4,
       "userId": 4,
       "content": "Excited for the weekend!",
-      "imageUrl": "https://cdn.pixabay.com/photo/2023/01/15/22/48/river-7721287_1280.jpg",
+      "imageUrl": "https://cdn.pixabay.com/photo/2023/08/11/08/29/highland-cattle-8183107_1280.jpg",
       "likes": 8,
       "comments": [
         {
