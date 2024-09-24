@@ -14,29 +14,26 @@
     },
     {
       "id": 3,
-      "username": "jane_doe",
-      "email": "jane@example.com",
+      "username": "john_smith",
+      "email": "john.smith@example.com",
       "profilePicture": "https://images.pexels.com/photos/26692187/pexels-photo-26692187/free-photo-of-portrait-of-woman-posing-in-blue-suit.jpeg"
     },
     {
-      "id": 4
-      "username": "jane_doe",
-      "email": "jane@example.com",
-      "profilePicture": "https://images.pexels.com/photos/26692187/pexels-photo-26692187/free-photo-of-portrait-of-woman-posing-in-blue-suit.jpeg",
-      "imageUrl": "https://images.pexels.com/photos/13159659/pexels-photo-13159659.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "id": 4,
+      "username": "alice_brown",
+      "email": "alice.brown@example.com",
+      "profilePicture": "https://images.pexels.com/photos/26692187/pexels-photo-26692187/free-photo-of-portrait-of-woman-posing-in-blue-suit.jpeg"
     },
     {
       "id": 5,
-      "username": "jane_doe",
-      "email": "jane@example.com",
-      "profilePicture": "https://images.pexels.com/photos/26692187/pexels-photo-26692187/free-photo-of-portrait-of-woman-posing-in-blue-suit.jpeg",
-    "imageUrl": "https://images.pexels.com/photos/13159659/pexels-photo-13159659.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      "username": "charlie_white",
+      "email": "charlie.white@example.com",
+      "profilePicture": "https://images.pexels.com/photos/26692187/pexels-photo-26692187/free-photo-of-portrait-of-woman-posing-in-blue-suit.jpeg"
     },
-    
-      {
+    {
       "id": 6,
-      "username": "jane_doe",
-      "email": "jane@example.com",
+      "username": "david_black",
+      "email": "david.black@example.com",
       "profilePicture": "https://images.pexels.com/photos/26692187/pexels-photo-26692187/free-photo-of-portrait-of-woman-posing-in-blue-suit.jpeg"
     }
   ],
@@ -66,17 +63,18 @@
           "commentId": 2,
           "userId": 1,
           "text": "Glad you like it!"
-        },
-        "posts": [
+        }
+      ]
+    },
     {
       "postId": 3,
       "userId": 3,
-      "content": "This is my first post!",
+      "content": "This is my second post!",
       "imageUrl": "https://images.pexels.com/photos/13159659/pexels-photo-13159659.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "likes": 5,
       "comments": [
         {
-          "commentId": 1,
+          "commentId": 3,
           "userId": 3,
           "text": "Nice post!"
         }
@@ -90,11 +88,12 @@
       "likes": 10,
       "comments": [
         {
-          "commentId": 2,
+          "commentId": 4,
           "userId": 4,
           "text": "Glad you like it!"
-        },
-        "posts": [
+        }
+      ]
+    },
     {
       "postId": 5,
       "userId": 5,
@@ -103,7 +102,7 @@
       "likes": 5,
       "comments": [
         {
-          "commentId": 1,
+          "commentId": 5,
           "userId": 5,
           "text": "Nice post!"
         }
@@ -117,7 +116,7 @@
       "likes": 10,
       "comments": [
         {
-          "commentId": 2,
+          "commentId": 6,
           "userId": 6,
           "text": "Glad you like it!"
         }
@@ -125,3 +124,4 @@
     }
   ]
 }
+
