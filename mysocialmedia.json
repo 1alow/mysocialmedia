@@ -3,10 +3,10 @@
         {
             "id": 1,
             "username": "johndoe",
-            "profilePicture": "https://images.pexels.com/photos/26692187/pexels-photo-26692187/free-photo-of-portrait-of-woman-posing-in-blue-suit.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "profilePicture": "https://cdn.pixabay.com/photo/2023/01/15/22/48/river-7721287_1280.jpg",
             "posts": [
                 {
-                    "imageUrl": "https://images.pexels.com/photos/26692187/pexels-photo-26692187/free-photo-of-portrait-of-woman-posing-in-blue-suit.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+                    "imageUrl": "https://cdn.pixabay.com/photo/2023/01/15/22/48/river-7721287_1280.jpg",
                     "content": "Loving the beach today!",
                     "likes": 150,
                     "comments": [
@@ -21,7 +21,7 @@
                     ]
                 },
                 {
-                    "imageUrl": "https://example.com/posts/post2.jpg",
+                    "imageUrl": "https://cdn.pixabay.com/photo/2023/01/15/22/48/river-7721287_1280.jpg",
                     "content": "Just had the best coffee!",
                     "likes": 100,
                     "comments": []
@@ -31,10 +31,10 @@
         {
             "id": 2,
             "username": "janedoe",
-            "profilePicture": "https://images.pexels.com/photos/20621555/pexels-photo-20621555/free-photo-of-photo-of-a-young-elegant-woman-wearing-a-black-hijab.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "profilePicture": "https://cdn.pixabay.com/photo/2023/01/15/22/48/river-7721287_1280.jpg1",
             "posts": [
                 {
-                    "imageUrl": "https://images.pexels.com/photos/20621555/pexels-photo-20621555/free-photo-of-photo-of-a-young-elegant-woman-wearing-a-black-hijab.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+                    "imageUrl": "https://cdn.pixabay.com/photo/2023/01/15/22/48/river-7721287_1280.jpg1",
                     "content": "Exploring the city!",
                     "likes": 200,
                     "comments": [
@@ -49,10 +49,10 @@
         {
             "id": 3,
             "username": "marksmith",
-            "profilePicture": "https://images.pexels.com/photos/15766840/pexels-photo-15766840/free-photo-of-a-black-woman-with-an-afro-standing-in-the-middle-of-the-road.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "profilePicture": "https://cdn.pixabay.com/photo/2023/01/15/22/48/river-7721287_1280.jpg1",
             "posts": [
                 {
-                    "imageUrl": "https://images.pexels.com/photos/15766840/pexels-photo-15766840/free-photo-of-a-black-woman-with-an-afro-standing-in-the-middle-of-the-road.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+                    "imageUrl": "https://cdn.pixabay.com/photo/2023/01/15/22/48/river-7721287_1280.jpg1",
                     "content": "Workout session done!",
                     "likes": 300,
                     "comments": [
