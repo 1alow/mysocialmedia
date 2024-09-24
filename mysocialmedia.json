@@ -4,7 +4,8 @@
       "id": 1,
       "username": "john_doe",
       "email": "john@example.com",
-      "profilePicture": "https://cdn.pixabay.com/photo/2023/01/15/22/48/river-7721287_1280.jpg"
+      "profilePicture": "https://cdn.pixabay.com/photo/2023/01/15/22/48/river-7721287_1280.jpg",
+      "imageUrl": "https://cdn.pixabay.com/photo/2023/01/15/22/48/river-7721287_1280.jpg"
     },
     {
       "id": 2,
@@ -16,7 +17,7 @@
       "id": 3,
       "username": "alice_smith",
       "email": "alice@example.com",
-      "profilePicture": "profile3.jpg"
+      "profilePicture": "https://cdn.pixabay.com/photo/2023/01/15/22/48/river-7721287_1280.jpg"
     },
     {
       "id": 4,
@@ -28,7 +29,7 @@
       "id": 5,
       "username": "charlie_black",
       "email": "charlie@example.com",
-      "profilePicture": "profile5.jpg"
+      "profilePicture": "https://cdn.pixabay.com/photo/2023/01/15/22/48/river-7721287_1280.jpg"
     }
   ],
   "posts": [
@@ -64,7 +65,7 @@
       "postId": 3,
       "userId": 3,
       "content": "Just finished reading a great book!",
-      "imageUrl": "post_image3.jpg",
+      "imageUrl": "https://cdn.pixabay.com/photo/2023/01/15/22/48/river-7721287_1280.jpg",
       "likes": 15,
       "comments": [
         {
@@ -83,7 +84,7 @@
       "postId": 4,
       "userId": 4,
       "content": "Excited for the weekend!",
-      "imageUrl": "post_image4.jpg",
+      "imageUrl": "https://cdn.pixabay.com/photo/2023/01/15/22/48/river-7721287_1280.jpg",
       "likes": 8,
       "comments": [
         {
@@ -97,7 +98,7 @@
       "postId": 5,
       "userId": 5,
       "content": "Just completed a marathon!",
-      "imageUrl": "post_image5.jpg",
+      "imageUrl": "https://cdn.pixabay.com/photo/2023/01/15/22/48/river-7721287_1280.jpg",
       "likes": 20,
       "comments": [
         {
