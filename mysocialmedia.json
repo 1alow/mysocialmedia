@@ -2,7 +2,7 @@
   "users": [
     {
       "id": 1,
-      "username": "john_doe",
+      "username": "ALISHA_MALIK",
       "email": "john@example.com",
       "profilePicture": "https://images.pexels.com/photos/13159659/pexels-photo-13159659.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
@@ -10,7 +10,7 @@
       "id": 2,
       "username": "jane_doe",
       "email": "jane@example.com",
-      "profilePicture": "profile2.jpg"
+      "profilePicture": "https://images.pexels.com/photos/13159659/pexels-photo-13159659.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     }
   ],
   "posts": [
@@ -18,7 +18,7 @@
       "postId": 1,
       "userId": 1,
       "content": "This is my first post!",
-      "imageUrl": "post_image1.jpg",
+      "imageUrl": "https://images.pexels.com/photos/13159659/pexels-photo-13159659.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "likes": 5,
       "comments": [
         {
@@ -32,7 +32,7 @@
       "postId": 2,
       "userId": 2,
       "content": "Loving the new social media app!",
-      "imageUrl": "post_image2.jpg",
+      "imageUrl": "https://images.pexels.com/photos/13159659/pexels-photo-13159659.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "likes": 10,
       "comments": [
         {
