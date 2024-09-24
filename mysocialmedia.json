@@ -38,12 +38,6 @@
       "username": "jane_doe",
       "email": "jane@example.com",
       "profilePicture": "https://images.pexels.com/photos/26692187/pexels-photo-26692187/free-photo-of-portrait-of-woman-posing-in-blue-suit.jpeg"
-    },
-      {
-      "id": 7
-      "username": "jane_doe",
-      "email": "jane@example.com",
-      "profilePicture": "https://images.pexels.com/photos/26692187/pexels-photo-26692187/free-photo-of-portrait-of-woman-posing-in-blue-suit.jpeg"
     }
   ],
   "posts": [
@@ -71,6 +65,60 @@
         {
           "commentId": 2,
           "userId": 1,
+          "text": "Glad you like it!"
+        },
+        "posts": [
+    {
+      "postId": 3,
+      "userId": 3,
+      "content": "This is my first post!",
+      "imageUrl": "https://images.pexels.com/photos/13159659/pexels-photo-13159659.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "likes": 5,
+      "comments": [
+        {
+          "commentId": 1,
+          "userId": 3,
+          "text": "Nice post!"
+        }
+      ]
+    },
+    {
+      "postId": 4,
+      "userId": 4,
+      "content": "Loving the new social media app!",
+      "imageUrl": "https://images.pexels.com/photos/26692187/pexels-photo-26692187/free-photo-of-portrait-of-woman-posing-in-blue-suit.jpeg",
+      "likes": 10,
+      "comments": [
+        {
+          "commentId": 2,
+          "userId": 4,
+          "text": "Glad you like it!"
+        },
+        "posts": [
+    {
+      "postId": 5,
+      "userId": 5,
+      "content": "This is my first post!",
+      "imageUrl": "https://images.pexels.com/photos/13159659/pexels-photo-13159659.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "likes": 5,
+      "comments": [
+        {
+          "commentId": 1,
+          "userId": 5,
+          "text": "Nice post!"
+        }
+      ]
+    },
+    {
+      "postId": 6,
+      "userId": 6,
+      "content": "Loving the new social media app!",
+      "imageUrl": "https://images.pexels.com/photos/26692187/pexels-photo-26692187/free-photo-of-portrait-of-woman-posing-in-blue-suit.jpeg",
+      "likes": 10,
+      "comments": [
+        {
+          "commentId": 2,
+          "userId": 6,
           "text": "Glad you like it!"
         }
       ]
